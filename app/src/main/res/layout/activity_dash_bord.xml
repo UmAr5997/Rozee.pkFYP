@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.DashBordActivity">
+
+        <androidx.appcompat.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:fitsSystemWindows="true"
+        android:background="@color/design_default_color_secondary_variant"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/back"
+                android:background="@drawable/ic_baseline_arrow_back_24"
+                android:backgroundTint="@color/white"
+                />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search Jobs"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginLeft="60dp"
+            />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Filters"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_marginLeft="100dp"
+                />
+        </androidx.appcompat.widget.Toolbar>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtsearch"
+        android:imeOptions="actionSearch"
+        android:inputType="textUri"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:background="@drawable/shopemail"
+        android:drawableRight="@drawable/ic_baseline_search_24"
+        android:drawablePadding="5dp"
+        android:hint="Job Title, Skills Or Company"
+        android:layout_below="@+id/toolbar"
+        android:textColor="#393838"
+        android:textColorHint="#393838"
+        android:textColorHighlight="#393838"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerview"
+        android:layout_below="@+id/edtsearch"
+        android:layout_margin="10dp"
+        />
+
+</RelativeLayout>

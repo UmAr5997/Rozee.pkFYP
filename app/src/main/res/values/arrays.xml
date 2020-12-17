@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="planets_array">
+        <item>+92</item>
+        <item>+93</item>
+        <item>+94</item>
+        <item>+95</item>
+        <item>+96</item>
+        <item>+97</item>
+        <item>+98</item>
+        <item>+99</item>
+        <item>+1</item>
+
+    </string-array>
+    <string-array name="gender_array" >
+        <item>Male</item>
+        <item>Female</item>
+        <item>Transgender</item>
+    </string-array>
+    <string-array name="cities">
+        <item>Rawalpindi</item>
+        <item>Islamabad</item>
+        <item>Lahore</item>
+        <item>Karachi</item>
+        <item>Faislabad</item>
+        <item>Multan</item>
+        <item>Quetta</item>
+        <item>Gujar Khan</item>
+    </string-array>
+
+</resources>

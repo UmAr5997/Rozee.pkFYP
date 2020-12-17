@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:showIn="navigation_view"
+
+    >
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_feeds"
+                android:icon="@drawable/newsfeed"
+                android:title="News Feeds"
+                />
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/user"
+                android:title="My Profile" />
+            <item
+                android:id="@+id/nav_matchjobs"
+                android:icon="@drawable/ic_baseline_matchjobs_24"
+                android:title="Match Jobs" />
+            <item
+                android:id="@+id/jobmatchsetting"
+                android:icon="@drawable/matchjobs"
+                android:title="Job Match Settings" />
+            <item
+                android:id="@+id/nav_Cvmanager"
+                android:icon="@drawable/cvmanager"
+                android:title="Cv Manager" />
+            <item
+                android:id="@+id/nav_myjobs"
+                android:icon="@drawable/verify"
+                android:title="My Jobs" />
+            <item
+                android:id="@+id/nav_qrscanner"
+                android:icon="@drawable/ic_baseline_qr_code_2_24"
+                android:title="QR Scanner" />
+            <item
+                android:id="@+id/nav_changepass"
+                android:icon="@drawable/lock"
+                android:title="Change Password" />
+            <item
+                android:id="@+id/nav_helpfeedback"
+                android:icon="@drawable/about"
+                android:title="Help and FeedBack" />
+            <item
+                android:id="@+id/nav_msignout"
+                android:icon="@drawable/logout"
+                android:title="Sign Out" />
+        </group>
+    </menu>
